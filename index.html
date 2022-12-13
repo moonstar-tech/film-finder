@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Film finder</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+ 
+  <body>
+    <p>
+        Winc Film Finder
+    </p>
+
+    <div class="container">
+      <div id="search-container">
+        <input
+          type="search"
+          id="search-input"
+          placeholder="Search movie name here.."
+        />
+        <button id="search">Search</button>
+    </div> 
+    
+    <nav>
+        <div>
+            <ul>
+                <li class="li-value">
+                    <input type="radio"name="filmfinder" id="radio-1" value="2014"/>
+                      <label for="radio-1">Latest movies 2014 or newer</label>
+                  </li>
+                  <li class="li-value">
+                      <input type="radio" name="filmfinder" id="radio-2" value="Avenger"/>
+                      <label for="radio-2">Avenger movies</label>
+                  </li>
+                  <li class="li-value">
+                      <input type="radio" name="filmfinder" id="radio-3" value="X-Men"/>
+                      <label for="radio-3">X-men movies</label>
+                  </li>
+                  <li class="li-value">
+                      <input type="radio" name="filmfinder" id="radio-4" value="Batman"/>
+                      <label for="radio-4">Batman movies</label>
+                  </li>
+                  <li class="li-value">
+                      <input type="radio" name="filmfinder" id="radio-5" value="Princess"/>
+                      <label for="radio-5">Princess movies</label>
+                  </li>
+            </ul>
+        </div>
+      </nav>
+
+     
+
+
+      <div class="img-container">
+        <ul id="img-list"></ul>
+      </div>
+
+
+      <script src="movies.js"></script>
+      <script src="script.js"></script>  
+  </body>
+    
+</html>
